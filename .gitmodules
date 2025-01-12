@@ -1,3 +1,3 @@
-[submodule "aloksethi.netlify.app/themes/hugo-coder"]
-	path = aloksethi.netlify.app/themes/hugo-coder
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
 	url = https://github.com/luizdepra/hugo-coder.git
