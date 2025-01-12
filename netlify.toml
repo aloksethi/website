@@ -1,9 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --themesDir=../.. --baseURL $URL"
+command = "hugo --themesDir=themes/ --baseURL $URL"
 
 [build.environment]
 HUGO_VERSION = "0.140.2"
-
-[context.deploy-preview]
-command = "hugo --themesDir=../.. --buildFuture --buildDrafts --baseURL $DEPLOY_PRIME_URL"
